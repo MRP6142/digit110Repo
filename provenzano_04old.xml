@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+    <title id="poemTitle">BALLAD OF BOOKER T.</title>
+  
+    <author id="LH">by Langston Hughes</author>
+    
+    <!-- The poem is written in a ballad form with a folk style -->
+    
+ <poem id="content">
+<line><historicalFig class="BT">Booker T</historicalFig>.</line>
+<line>Was a practical man.</line>    
+<line>He said, Till the soil</line>
+<line>And learn from the land.</line>    
+<line>Let down your bucket</line>    
+<line>Where you are.</line>
+<line>Your fate is here</line>
+<line>And not afar.</line>
+<line>To help yourself</line>
+<line>And your fellow man,</line>
+<line>Train your head,</line>
+<line>Your heart, <emphasis class="emp">and your hand</emphasis>.</line>
+<line>For smartness alone's</line>
+<line>Surely not meet<lineBreak class="br">—</lineBreak></line>
+<line>If you haven't at the same time</line>
+<line>Got something to eat.</line>
+<line>Thus at <location id="Alabama">Tuskegee</location></line>
+<line>He built a school</line>
+<line>With book-learning there</line>
+<line>And the workman's tool.</line>
+<line>He started out</line>
+<line>In a simple way<lineBreak class="br">—</lineBreak></line>
+<line>For yesterday</line>
+<line>Was<emphasis class="emp">not</emphasis>today.</line>
+<line>Sometimes he had</line>
+<line>Compromise in his talk<lineBreak class="br">—</lineBreak></line>
+<line>For a man must crawl</line>
+<line>Before he can walk<lineBreak class="br">—</lineBreak></line>
+<line>And in Alabama in '85</line>
+<line>A joker was lucky</line>
+<line>To be alive.</line>
+<line>But<historicalFig class="BT">Booker T</historicalFig>.</line>
+<line>Was nobody's fool:</line>
+<line>You may carve a dream</line>
+<line>With an humble tool.</line>
+<line>The tallest tower</line>
+<line>Can tumble down</line>
+<line>If it be not rooted</line>
+<line>In solid ground.</line>
+<line>So, being a far-seeing </line>
+<line>Practical man,</line>
+<line>He said, Train your head,</line>
+<line>Your heart,<emphasis class="emp">and your hand</emphasis>.</line>
+<line>Your fate is here</line>
+<line>And not afar,</line>
+<line>So let down your bucket</line>
+<line>Where you are.</line>
+</poem>
+    
+    <info>
+    <author id="LH">LANGSTON HUGHES</author>
+    <finalDraft>Final Draft,</finalDraft>
+    <sublocation>Hollow Hills Farm,</sublocation>
+    <location id="city and state">Monterey, California,</location>
+    <date id="timeline">June 1, 1941.</date>
+    </info>
+    
+    <metaData id="citation"><source>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
+    (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C</source></metaData>
+    
+</root>
