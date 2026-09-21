@@ -3,13 +3,13 @@ root = element root {xml}
 xml = element xml {source, poem}
 source = element source {title, author, date}
 title = element title {attribute level {"book" | "inner"} , text} 
-author = element author {text} 
-date = element date {attribute when {text}, empty} 
+author = element author {"Langston Hughes"} 
+date = element date {attribute when {"1951"}, empty} 
 poem = element poem {title , lg+} 
 lg = element lg {ln+} 
 ln = element ln {attribute n {xsd:integer} , mixed { placeName? | place? | motif?}*} 
-placeName = element placeName {attribute ref {text}, text} 
-place = element place {attribute ref {text}, text} 
+placeName = element placeName {attribute ref {"NYC-Harlem" | "NYC-Man"}, text} 
+place = element place {attribute ref {"NYC-PennSt" | "NYC-Man" | "NYC-Harlem" | "NYC-Bronx" | "NYC-Brook" | "La" | "Fla" | "Ga" | "NYC" | "Ja" | "Ha" | "Cuba" | "PR" | "NYC-Man"}, text} 
 motif = element motif {text} 
 
 
