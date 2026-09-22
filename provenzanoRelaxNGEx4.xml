@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+    <drink>
+        <name>Dr.Pepper</name>
+        <year>1885</year> 
+        <price>3.39</price>
+        <description>Dr.Pepper is a <emphasis>carbonated soft drink</emphasis> that brings a bunch of unique flavors</description>
+    </drink>
+</root>

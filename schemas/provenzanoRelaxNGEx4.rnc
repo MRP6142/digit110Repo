@@ -1,0 +1,8 @@
+start = root 
+root = element root {drink+} 
+drink = element drink {name, year, price, description} 
+name = element name {xsd:string} 
+year = element year {xsd:integer} 
+price = element price {xsd:decimal} 
+description = element description { mixed {emphasis}*} 
+emphasis = element emphasis {text} 

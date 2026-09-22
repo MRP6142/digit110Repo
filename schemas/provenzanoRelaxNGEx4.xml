@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="provenzanoRelaxNGEx4.rnc" type="application/relax-ng-compact-syntax"?>
+<root> 
+    <drink>
+        <name>Dr.Pepper</name>
+        <year>1885</year> 
+        <price>3.39</price>
+        <description>Dr.Pepper is a <emphasis>carbonated soft drink</emphasis> that brings a bunch of unique flavors</description>
+    </drink>
+</root>
