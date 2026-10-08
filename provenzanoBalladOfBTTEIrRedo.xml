@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p> <!-- I could understand what to do with <publicationStmt> -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
+               (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C</p>
+         </sourceDesc> 
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+            <lg type="stanza">
+               <l n="1">Booker T</l>
+               <l n="2">Was practical man.</l>
+               <l n="3">He said, Till the soil</l>
+               <l n="4">And learn from the land</l>
+            </lg>
+            <lg type="stanza">
+               <l n="5">Let down your bucket</l> 
+               <add>
+                  <stamp type="library">Library of Congress</stamp>
+               </add>
+               <l n="6">Where you are</l>
+               <l n="7">Your fate is here</l>
+               <l n="8">And not afar</l>
+            </lg>
+            <lg type="stanza">
+               <l n="9">To help yourself</l>
+               <l n="10">And your fellow man</l>
+               <l n="11">Train your head</l>
+               <l n="12">Your heart and your head</l>
+            </lg> 
+            <lg type="stanza">
+               <l n="13">For smartness alone's</l>
+               <l n="14">Surely not meet-</l> <!-- Couldnt seem to figure out how to encode the linebreaks in the poem -->
+               <l n="15">If you havent at the same time</l>
+               <l n="16">Got something to eat.</l>
+            </lg>
+            <lg type="stanza">
+               <l n="17">Thus at <location><placeName>Tuskegee</placeName></location></l>
+               <l n="18">He built a school</l>
+               <l n="19">With book-learning there</l>
+               <l n="20">And the workman's tool</l>
+            </lg> 
+            <lg type="stanza">
+               <l n="21">He started out</l>
+               <l n="22">In a simple way</l>
+               <l n="23">For yesterday</l>
+               <l n="24">Was not today.</l>
+            </lg>
+            <lg type="stanza">
+               <l n="25">Sometimes he had</l>
+               <l n="26">Compromise in his talk-</l>
+               <l n="27">For a man must crawl</l>
+               <l n="28">Before he can walk-</l>
+            </lg>
+            <lg type="stanza">
+               <l n="29">And in <location><placeName>Alabama</placeName></location> in 85</l>
+               <l n="30">A joker was lucky</l>
+               <l n="31">To be alive</l>
+               <l n="32">But Booker T.</l>
+            </lg>
+            <lg type="stanza">
+               <l n="33">Was nobody's fool:</l>
+               <l n="34">You may carve a dream</l>
+               <l n="35">With a humbe tool</l>
+               <l n="36">The tallest tower</l>
+            </lg>
+            <lg type="stanza">
+               <l n="37">Can tumble down</l>
+               <l n="38">If it be not rooted</l>
+               <l n="39">In solid ground.</l>
+               <l n="40">So being a far seeing</l>
+            </lg>
+            <lg type="stanza">
+               <l n="41">Practical man,</l>
+               <l n="42">He said, Train your head</l>
+               <l n="43">Your heart and your hand</l>
+               <l n="44">Your fate is here</l>
+            </lg>
+            <lg type="stanza">
+               <l n="45">And not afar</l>
+               <l n="46">So let down your bucket</l>
+               <l n="47">Where you are</l>
+            </lg>
+      </body>
+  </text>
+</TEI>
