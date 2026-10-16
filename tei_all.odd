@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Project TEI Customization Starter</title>
+        <title>HOMEWORK: Project TEI Customization Starter</title>
         <author>Mario Provenzano</author>
       </titleStmt>
       <publicationStmt>
@@ -58,12 +58,12 @@
         <moduleRef n="03" key="core" except="abbr date desc"/>
         <moduleRef n="04" key="textstructure" except="body"/>
         <moduleRef n="05" key="gaiji"/>
-        <moduleRef n="06" key="verse"/>
+        <moduleRef n="06" key="verse" include="rhyme"/>
         <moduleRef n="07" key="drama" except="actor"/>
         <moduleRef n="08" key="spoken"/>
-        <moduleRef n="09" key="cmc"/>
+
         <moduleRef n="18" key="analysis"/>
-        <moduleRef n="10" key="dictionaries"/>
+
         <moduleRef n="11" key="msdescription" except="depth dim"/>
         <moduleRef n="12" key="transcr"/>
         <moduleRef n="13" key="textcrit"/>
@@ -74,7 +74,7 @@
         <moduleRef n="19" key="iso-fs" except="cond"/>
         <moduleRef n="20" key="nets"/>
         <moduleRef n="22" key="certainty"/>
-        <moduleRef n="23" key="tagdocs" except="constraintDecl dataRef dataSpec datatype"/>
+  
       </schemaSpec>
     </body>
   </text>
