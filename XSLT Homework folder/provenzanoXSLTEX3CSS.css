@@ -1,0 +1,20 @@
+.character {
+    color: blue; 
+    font-weight: bold; 
+    border: blue; 
+}
+
+.epithet {
+    font-style: italic;
+    font-weight: bold;
+} 
+
+.MythicDown {
+    color: red; 
+    font-style: italic; 
+} 
+
+.location {
+    color: green; 
+    font-weight: bold; 
+}
