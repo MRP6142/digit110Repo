@@ -1,0 +1,21 @@
+body {
+    color: blue; 
+    background-color: #ADD8E6; /* light blue */ 
+    font-family: arial, helvetica, sans-serif; 
+    line-height: 1.5em;
+    padding: 3vw;
+} 
+
+table {
+    border: .5vw Ridge blue; 
+    margin: auto;
+}
+
+th, td {
+       padding: 1em;
+     }
+     
+tr:nth-child(odd) {
+    background-color: #533d73; /* deep purple */
+    color: white; 
+    }
