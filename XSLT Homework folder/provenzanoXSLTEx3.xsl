@@ -5,6 +5,16 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/> 
     
+    <xsl:template match="/">
+        <skyrim>
+                <title>The Oblivion Crisis</title>
+            <link rel="stylesheet" type="text/css" href="provenzanoXSLTEX3CSS.css"/>
+            <body>
+                <xsl:apply-templates/>
+            </body>
+        </skyrim>
+    </xsl:template>
+    
     <xsl:template match="QuestEvent">
         <strong>
             <xsl:apply-templates/>
